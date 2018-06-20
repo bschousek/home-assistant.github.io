@@ -68,7 +68,7 @@ Go to the add-on store (see previous step), click on Configurator and click on "
  - You will be able to click the "OPEN WEB UI" link to open the Web UI on a new window
  - Type your username and password that you recently save
 
-Time for the first practice with the configurator. Add the following to `configuration.yaml` file to add a link to the Configurator in the sidebar:
+Time for the first practice with the configurator. Within the configurator open the file `configuration.yaml` by browsing the filesystem using the folder icon on the upper left. Add the following to `configuration.yaml` to add a link to the Configurator in the sidebar:
 
 ```yaml
 panel_iframe:
@@ -78,7 +78,7 @@ panel_iframe:
     url: http://hassio.local:3218
 ```
 
-Now restart Home Assistant for the changes to the configuration to take effect. You can do this by going to the config panel (Configuration in the sidebar) -> General -> Restart Home Assistant.
+Now restart Home Assistant for the changes to the configuration to take effect. You can do this by going to the config panel  (Configuration in the sidebar) Configuration -> General -> Restart Home Assistant.
 
 ### {% linkable_title Editing config via Samba/Windows Networking %}
 
